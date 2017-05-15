@@ -1,2 +1,3 @@
 # Build example
 add_executable(example example.cpp)
+add_executable(aufgabe2bis4 aufgabe2bis4.cpp)

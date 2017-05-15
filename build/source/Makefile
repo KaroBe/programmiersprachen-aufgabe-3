@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+source/CMakeFiles/aufgabe2bis4.dir/rule:
+	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe2bis4.dir/rule
+.PHONY : source/CMakeFiles/aufgabe2bis4.dir/rule
+
+# Convenience name for target.
+aufgabe2bis4: source/CMakeFiles/aufgabe2bis4.dir/rule
+
+.PHONY : aufgabe2bis4
+
+# fast build rule for target.
+aufgabe2bis4/fast:
+	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe2bis4.dir/build.make source/CMakeFiles/aufgabe2bis4.dir/build
+.PHONY : aufgabe2bis4/fast
+
+# Convenience name for target.
 source/CMakeFiles/example.dir/rule:
 	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/example.dir/rule
 .PHONY : source/CMakeFiles/example.dir/rule
@@ -124,6 +139,33 @@ example: source/CMakeFiles/example.dir/rule
 example/fast:
 	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/build
 .PHONY : example/fast
+
+aufgabe2bis4.o: aufgabe2bis4.cpp.o
+
+.PHONY : aufgabe2bis4.o
+
+# target to build an object file
+aufgabe2bis4.cpp.o:
+	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe2bis4.dir/build.make source/CMakeFiles/aufgabe2bis4.dir/aufgabe2bis4.cpp.o
+.PHONY : aufgabe2bis4.cpp.o
+
+aufgabe2bis4.i: aufgabe2bis4.cpp.i
+
+.PHONY : aufgabe2bis4.i
+
+# target to preprocess a source file
+aufgabe2bis4.cpp.i:
+	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe2bis4.dir/build.make source/CMakeFiles/aufgabe2bis4.dir/aufgabe2bis4.cpp.i
+.PHONY : aufgabe2bis4.cpp.i
+
+aufgabe2bis4.s: aufgabe2bis4.cpp.s
+
+.PHONY : aufgabe2bis4.s
+
+# target to generate assembly for a file
+aufgabe2bis4.cpp.s:
+	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe2bis4.dir/build.make source/CMakeFiles/aufgabe2bis4.dir/aufgabe2bis4.cpp.s
+.PHONY : aufgabe2bis4.cpp.s
 
 example.o: example.cpp.o
 
@@ -159,8 +201,12 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... aufgabe2bis4"
 	@echo "... edit_cache"
 	@echo "... example"
+	@echo "... aufgabe2bis4.o"
+	@echo "... aufgabe2bis4.i"
+	@echo "... aufgabe2bis4.s"
 	@echo "... example.o"
 	@echo "... example.i"
 	@echo "... example.s"

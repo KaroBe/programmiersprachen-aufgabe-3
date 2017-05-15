@@ -114,7 +114,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=programmiersprachen-aufgabe-1
+CMAKE_PROJECT_NAME:STATIC=programmiersprachen-aufgabe-3
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -170,6 +170,12 @@ programmiersprachen-aufgabe-1_BINARY_DIR:STATIC=/home/karoline/Dokumente/studium
 
 //Value Computed by CMake
 programmiersprachen-aufgabe-1_SOURCE_DIR:STATIC=/home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3
+
+//Value Computed by CMake
+programmiersprachen-aufgabe-3_BINARY_DIR:STATIC=/home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build
+
+//Value Computed by CMake
+programmiersprachen-aufgabe-3_SOURCE_DIR:STATIC=/home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3
 
 
 ########################
