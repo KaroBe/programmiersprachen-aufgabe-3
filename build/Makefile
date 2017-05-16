@@ -149,6 +149,19 @@ aufgabe5/fast:
 	$(MAKE) -f source/CMakeFiles/aufgabe5.dir/build.make source/CMakeFiles/aufgabe5.dir/build
 .PHONY : aufgabe5/fast
 
+#=============================================================================
+# Target rules for targets named aufgabe7
+
+# Build rule for target.
+aufgabe7: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aufgabe7
+.PHONY : aufgabe7
+
+# fast build rule for target.
+aufgabe7/fast:
+	$(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/build
+.PHONY : aufgabe7/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -160,6 +173,7 @@ help:
 	@echo "... example"
 	@echo "... aufgabe2bis4"
 	@echo "... aufgabe5"
+	@echo "... aufgabe7"
 .PHONY : help
 
 
