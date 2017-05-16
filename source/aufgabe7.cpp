@@ -14,8 +14,11 @@ TEST_CASE("sorted_container", "[circle_container]")
 	{
 		c.setRadius(std::rand() % 20 + 1);
 	}
+
+	std::sort(happyCircles.begin(), happyCircles.end());
 	
-	//REQUIRE(std::all_of(v.begin(), v.end(),is_sorted()));
+	REQUIRE(std::is_sorted(happyCircles.begin(),
+		happyCircles.end()));
 }
 
 int main(int argc, char* argv[])
