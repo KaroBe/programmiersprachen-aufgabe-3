@@ -63,6 +63,7 @@ CMAKE_BINARY_DIR = /home/karoline/Dokumente/studium/17_sose/programmiersprachen/
 # Directory level rules for directory source
 
 # Convenience name for "all" pass in the directory.
+source/all: source/CMakeFiles/aufgabe10.dir/all
 source/all: source/CMakeFiles/example.dir/all
 source/all: source/CMakeFiles/aufgabe2bis4.dir/all
 source/all: source/CMakeFiles/aufgabe5.dir/all
@@ -71,6 +72,7 @@ source/all: source/CMakeFiles/aufgabe7bis9.dir/all
 .PHONY : source/all
 
 # Convenience name for "clean" pass in the directory.
+source/clean: source/CMakeFiles/aufgabe10.dir/clean
 source/clean: source/CMakeFiles/example.dir/clean
 source/clean: source/CMakeFiles/aufgabe2bis4.dir/clean
 source/clean: source/CMakeFiles/aufgabe5.dir/clean
@@ -84,13 +86,50 @@ source/preinstall:
 .PHONY : source/preinstall
 
 #=============================================================================
+# Target rules for target source/CMakeFiles/aufgabe10.dir
+
+# All Build rule for target.
+source/CMakeFiles/aufgabe10.dir/all:
+	$(MAKE) -f source/CMakeFiles/aufgabe10.dir/build.make source/CMakeFiles/aufgabe10.dir/depend
+	$(MAKE) -f source/CMakeFiles/aufgabe10.dir/build.make source/CMakeFiles/aufgabe10.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build/CMakeFiles --progress-num=1,2 "Built target aufgabe10"
+.PHONY : source/CMakeFiles/aufgabe10.dir/all
+
+# Include target in all.
+all: source/CMakeFiles/aufgabe10.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+source/CMakeFiles/aufgabe10.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe10.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build/CMakeFiles 0
+.PHONY : source/CMakeFiles/aufgabe10.dir/rule
+
+# Convenience name for target.
+aufgabe10: source/CMakeFiles/aufgabe10.dir/rule
+
+.PHONY : aufgabe10
+
+# clean rule for target.
+source/CMakeFiles/aufgabe10.dir/clean:
+	$(MAKE) -f source/CMakeFiles/aufgabe10.dir/build.make source/CMakeFiles/aufgabe10.dir/clean
+.PHONY : source/CMakeFiles/aufgabe10.dir/clean
+
+# clean rule for target.
+clean: source/CMakeFiles/aufgabe10.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target source/CMakeFiles/example.dir
 
 # All Build rule for target.
 source/CMakeFiles/example.dir/all:
 	$(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/depend
 	$(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build/CMakeFiles --progress-num=8,9 "Built target example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build/CMakeFiles --progress-num=10,11 "Built target example"
 .PHONY : source/CMakeFiles/example.dir/all
 
 # Include target in all.
@@ -127,7 +166,7 @@ clean: source/CMakeFiles/example.dir/clean
 source/CMakeFiles/aufgabe2bis4.dir/all:
 	$(MAKE) -f source/CMakeFiles/aufgabe2bis4.dir/build.make source/CMakeFiles/aufgabe2bis4.dir/depend
 	$(MAKE) -f source/CMakeFiles/aufgabe2bis4.dir/build.make source/CMakeFiles/aufgabe2bis4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build/CMakeFiles --progress-num=1,2 "Built target aufgabe2bis4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build/CMakeFiles --progress-num=3,4 "Built target aufgabe2bis4"
 .PHONY : source/CMakeFiles/aufgabe2bis4.dir/all
 
 # Include target in all.
@@ -164,7 +203,7 @@ clean: source/CMakeFiles/aufgabe2bis4.dir/clean
 source/CMakeFiles/aufgabe5.dir/all:
 	$(MAKE) -f source/CMakeFiles/aufgabe5.dir/build.make source/CMakeFiles/aufgabe5.dir/depend
 	$(MAKE) -f source/CMakeFiles/aufgabe5.dir/build.make source/CMakeFiles/aufgabe5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build/CMakeFiles --progress-num=3,4 "Built target aufgabe5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build/CMakeFiles --progress-num=5,6 "Built target aufgabe5"
 .PHONY : source/CMakeFiles/aufgabe5.dir/all
 
 # Include target in all.
@@ -201,7 +240,7 @@ clean: source/CMakeFiles/aufgabe5.dir/clean
 source/CMakeFiles/aufgabe7bis9.dir/all:
 	$(MAKE) -f source/CMakeFiles/aufgabe7bis9.dir/build.make source/CMakeFiles/aufgabe7bis9.dir/depend
 	$(MAKE) -f source/CMakeFiles/aufgabe7bis9.dir/build.make source/CMakeFiles/aufgabe7bis9.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build/CMakeFiles --progress-num=5,6,7 "Built target aufgabe7bis9"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build/CMakeFiles --progress-num=7,8,9 "Built target aufgabe7bis9"
 .PHONY : source/CMakeFiles/aufgabe7bis9.dir/all
 
 # Include target in all.

@@ -1,18 +1,18 @@
 #define CATCH_CONFIG_RUNNER
 #include <catch.hpp>
 
-template <typename T>
-
-std::vector<T> filter (std::vector<T> const& v;
-	TYPE ???? praedikat)
-{
-	return v.erase(std::remove_if(v.begin(), v.end(),
-		praedikat), v.end());
-}
-
 bool is_even (int n)
 {
 	return n % 2 == 0;
+}
+
+template <typename Container, typename T>
+Container filter (Container const& c,
+	T praed)
+{
+	Container c2 (c.size());
+	std::copy_if (c.begin(), c.end(), c2.begin(),
+		praed);
 }
 
 TEST_CASE("filter alle vielfache von drei", "[erase]")

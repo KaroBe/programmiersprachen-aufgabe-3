@@ -54,8 +54,6 @@ TEST_CASE("transform_container", "[int_containers]")
 		[](int x) -> bool{
 			return x == 10;
 		}));
-
-
 }
 
 int main(int argc, char* argv[])
