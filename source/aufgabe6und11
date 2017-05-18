@@ -1,0 +1,73 @@
+3.6
+
+Speichern der Punkte eines Polygons
+	vector/tuple ?
+
+Zuordnen von Farbnamen und entsprechenden RGB-Werten
+	Map die als Key einen Farbnamen und als Value einen Container mit den RGB Werten nimmt, z.B. <tuple>
+
+FIFO Warteschlange von Druckaufträgen
+	list/forward_list
+	-> deque vll besser, da wahlfreier zugriff auf elemente (iwas in Mitte löschen)
+
+
+Zu LAMBDAS:
+
+	Lambda: [Bindung] (Parameters) -> Rückgabewert {Funktionsrumpf}
+	
+	Compare comp is third parameter of std::sort and defined as:
+	"Binary function that accepts two elements in the range as arguments,
+	and returns a value convertible to bool. The value returned indicates
+	whether the element passed as first argument is considered to go before
+	the second in the specific strict weak ordering it defines."
+	is x <= y ? 	if true, x comes before y
+					is false, x comes after y
+	e.g. 	list=[2,1]
+			x = 1, y = 2
+			1<=2? true
+			-> list=[1,2]
+	[] (c2 const& lhs, c2 const& rhs)-> bool {
+			return lhs.getRadius() <= rhs.getRadius();
+		}
+	
+	in this case:
+	[] 	//keine erfassung automatischer Variablen
+	(c2 const& lhs, c2 const& rhs)	//übergabe zweier elemente des vektors per const ref
+	-> bool		//Rückgabe eines bool, true wenn lhs vor rhs kommen soll, false wenn nicht
+	{
+	  return lhs.getRadius() <= rhs.getRadius();
+	}
+	*/
+
+	/*
+	std::sort(c2.begin(), c2.end(),
+		[](Circle const& lhs, Circle const& rhs) -> bool{
+	  	return lhs.getRadius() <= rhs.getRadius();
+	});
+
+3.11
+
+std :: map < string , int > matrikelnummern ;
+// Hinzufueggen von vielen Studenten
+matrikelnummern [ " Max Mustermann " ] = 12345;
+matrikelnummern [ " Erika Mustermann " ] = 23523;
+// ...
+exmatrikulation ( matrikelnummer [ " Fred Fuchs " ]);
+
+Es wird eine map angelegt, die Namen und Matrikelnummern von Studenten speichert.
+Die Namen dienen als keys für die Matrikelnummern, und in einer map (nicht multimap) sind diese einmalig in der map enthalten.
+
+Es kann also zu einem Namen nicht mehrere Matrikelnummern geben, dies könnte praktisch aber der Fall sein, wenn ein Name doppelt vorkommt.
+
+Beim Einfügen eines neuen Wertepaars wird es nur angefügt, wenn der key noch nicht enthalten war.
+
+Bei Multimaps sind dagegen gleiche keys mit unterschiedlichen Schlüsseln möglich.
+
+Möglichkeiten zum Einfügen und Suchen:
+Iterator
+Element acces by..
+operator [key]			Value
+at Key 					Value
+find					Iterator to element
+
+If the map object is const-qualified, function returns const_iterator

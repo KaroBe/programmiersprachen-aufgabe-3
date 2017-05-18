@@ -15,7 +15,7 @@ Container filter (Container const& c,
 		praed);
 }
 
-TEST_CASE("filter alle vielfache von drei", "[erase]")
+TEST_CASE("alleven_test_der_template_funktion", "[template_funktion]")
 {
 	std::vector<int> v{1,2,3,4,5,6};
 	std::vector<int> alleven = filter(v,is_even);

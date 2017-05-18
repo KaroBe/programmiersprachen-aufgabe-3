@@ -4,6 +4,7 @@
 /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build/source/CMakeFiles/rebuild_cache.dir
 /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build/source/CMakeFiles/aufgabe10.dir
 /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build/source/CMakeFiles/example.dir
+/home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build/source/CMakeFiles/aufgabe12.dir
 /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build/source/CMakeFiles/aufgabe2bis4.dir
 /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build/source/CMakeFiles/aufgabe5.dir
 /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build/source/CMakeFiles/aufgabe7bis9.dir

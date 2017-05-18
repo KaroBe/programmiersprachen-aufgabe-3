@@ -1,9 +1,0 @@
-Speichern der Punkte eines Polygons
-	vector/tuple ?
-
-Zuordnen von Farbnamen und entsprechenden RGB-Werten
-	Map die als Key einen Farbnamen und als Value einen Container mit den RGB Werten nimmt, z.B. <tuple>
-
-FIFO Warteschlange von Druckaufträgen
-	list/forward_list
-	-> deque vll besser, da wahlfreier zugriff auf elemente (iwas in Mitte löschen)

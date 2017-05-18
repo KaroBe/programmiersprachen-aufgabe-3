@@ -141,6 +141,21 @@ example/fast:
 .PHONY : example/fast
 
 # Convenience name for target.
+source/CMakeFiles/aufgabe12.dir/rule:
+	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe12.dir/rule
+.PHONY : source/CMakeFiles/aufgabe12.dir/rule
+
+# Convenience name for target.
+aufgabe12: source/CMakeFiles/aufgabe12.dir/rule
+
+.PHONY : aufgabe12
+
+# fast build rule for target.
+aufgabe12/fast:
+	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe12.dir/build.make source/CMakeFiles/aufgabe12.dir/build
+.PHONY : aufgabe12/fast
+
+# Convenience name for target.
 source/CMakeFiles/aufgabe2bis4.dir/rule:
 	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe2bis4.dir/rule
 .PHONY : source/CMakeFiles/aufgabe2bis4.dir/rule
@@ -211,6 +226,33 @@ aufgabe10.s: aufgabe10.cpp.s
 aufgabe10.cpp.s:
 	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe10.dir/build.make source/CMakeFiles/aufgabe10.dir/aufgabe10.cpp.s
 .PHONY : aufgabe10.cpp.s
+
+aufgabe12.o: aufgabe12.cpp.o
+
+.PHONY : aufgabe12.o
+
+# target to build an object file
+aufgabe12.cpp.o:
+	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe12.dir/build.make source/CMakeFiles/aufgabe12.dir/aufgabe12.cpp.o
+.PHONY : aufgabe12.cpp.o
+
+aufgabe12.i: aufgabe12.cpp.i
+
+.PHONY : aufgabe12.i
+
+# target to preprocess a source file
+aufgabe12.cpp.i:
+	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe12.dir/build.make source/CMakeFiles/aufgabe12.dir/aufgabe12.cpp.i
+.PHONY : aufgabe12.cpp.i
+
+aufgabe12.s: aufgabe12.cpp.s
+
+.PHONY : aufgabe12.s
+
+# target to generate assembly for a file
+aufgabe12.cpp.s:
+	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe12.dir/build.make source/CMakeFiles/aufgabe12.dir/aufgabe12.cpp.s
+.PHONY : aufgabe12.cpp.s
 
 aufgabe2bis4.o: aufgabe2bis4.cpp.o
 
@@ -299,6 +341,7 @@ circle.o: circle.cpp.o
 
 # target to build an object file
 circle.cpp.o:
+	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe12.dir/build.make source/CMakeFiles/aufgabe12.dir/circle.cpp.o
 	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7bis9.dir/build.make source/CMakeFiles/aufgabe7bis9.dir/circle.cpp.o
 .PHONY : circle.cpp.o
 
@@ -308,6 +351,7 @@ circle.i: circle.cpp.i
 
 # target to preprocess a source file
 circle.cpp.i:
+	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe12.dir/build.make source/CMakeFiles/aufgabe12.dir/circle.cpp.i
 	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7bis9.dir/build.make source/CMakeFiles/aufgabe7bis9.dir/circle.cpp.i
 .PHONY : circle.cpp.i
 
@@ -317,6 +361,7 @@ circle.s: circle.cpp.s
 
 # target to generate assembly for a file
 circle.cpp.s:
+	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe12.dir/build.make source/CMakeFiles/aufgabe12.dir/circle.cpp.s
 	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7bis9.dir/build.make source/CMakeFiles/aufgabe7bis9.dir/circle.cpp.s
 .PHONY : circle.cpp.s
 
@@ -357,12 +402,16 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... aufgabe10"
 	@echo "... example"
+	@echo "... aufgabe12"
 	@echo "... aufgabe2bis4"
 	@echo "... aufgabe5"
 	@echo "... aufgabe7bis9"
 	@echo "... aufgabe10.o"
 	@echo "... aufgabe10.i"
 	@echo "... aufgabe10.s"
+	@echo "... aufgabe12.o"
+	@echo "... aufgabe12.i"
+	@echo "... aufgabe12.s"
 	@echo "... aufgabe2bis4.o"
 	@echo "... aufgabe2bis4.i"
 	@echo "... aufgabe2bis4.s"
