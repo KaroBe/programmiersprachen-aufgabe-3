@@ -156,19 +156,19 @@ aufgabe5/fast:
 .PHONY : aufgabe5/fast
 
 # Convenience name for target.
-source/CMakeFiles/aufgabe7.dir/rule:
-	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe7.dir/rule
-.PHONY : source/CMakeFiles/aufgabe7.dir/rule
+source/CMakeFiles/aufgabe7bis9.dir/rule:
+	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe7bis9.dir/rule
+.PHONY : source/CMakeFiles/aufgabe7bis9.dir/rule
 
 # Convenience name for target.
-aufgabe7: source/CMakeFiles/aufgabe7.dir/rule
+aufgabe7bis9: source/CMakeFiles/aufgabe7bis9.dir/rule
 
-.PHONY : aufgabe7
+.PHONY : aufgabe7bis9
 
 # fast build rule for target.
-aufgabe7/fast:
-	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/build
-.PHONY : aufgabe7/fast
+aufgabe7bis9/fast:
+	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7bis9.dir/build.make source/CMakeFiles/aufgabe7bis9.dir/build
+.PHONY : aufgabe7bis9/fast
 
 aufgabe2bis4.o: aufgabe2bis4.cpp.o
 
@@ -224,32 +224,32 @@ aufgabe5.cpp.s:
 	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe5.dir/build.make source/CMakeFiles/aufgabe5.dir/aufgabe5.cpp.s
 .PHONY : aufgabe5.cpp.s
 
-aufgabe7.o: aufgabe7.cpp.o
+aufgabe7bis9.o: aufgabe7bis9.cpp.o
 
-.PHONY : aufgabe7.o
+.PHONY : aufgabe7bis9.o
 
 # target to build an object file
-aufgabe7.cpp.o:
-	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/aufgabe7.cpp.o
-.PHONY : aufgabe7.cpp.o
+aufgabe7bis9.cpp.o:
+	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7bis9.dir/build.make source/CMakeFiles/aufgabe7bis9.dir/aufgabe7bis9.cpp.o
+.PHONY : aufgabe7bis9.cpp.o
 
-aufgabe7.i: aufgabe7.cpp.i
+aufgabe7bis9.i: aufgabe7bis9.cpp.i
 
-.PHONY : aufgabe7.i
+.PHONY : aufgabe7bis9.i
 
 # target to preprocess a source file
-aufgabe7.cpp.i:
-	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/aufgabe7.cpp.i
-.PHONY : aufgabe7.cpp.i
+aufgabe7bis9.cpp.i:
+	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7bis9.dir/build.make source/CMakeFiles/aufgabe7bis9.dir/aufgabe7bis9.cpp.i
+.PHONY : aufgabe7bis9.cpp.i
 
-aufgabe7.s: aufgabe7.cpp.s
+aufgabe7bis9.s: aufgabe7bis9.cpp.s
 
-.PHONY : aufgabe7.s
+.PHONY : aufgabe7bis9.s
 
 # target to generate assembly for a file
-aufgabe7.cpp.s:
-	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/aufgabe7.cpp.s
-.PHONY : aufgabe7.cpp.s
+aufgabe7bis9.cpp.s:
+	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7bis9.dir/build.make source/CMakeFiles/aufgabe7bis9.dir/aufgabe7bis9.cpp.s
+.PHONY : aufgabe7bis9.cpp.s
 
 circle.o: circle.cpp.o
 
@@ -257,7 +257,7 @@ circle.o: circle.cpp.o
 
 # target to build an object file
 circle.cpp.o:
-	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/circle.cpp.o
+	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7bis9.dir/build.make source/CMakeFiles/aufgabe7bis9.dir/circle.cpp.o
 .PHONY : circle.cpp.o
 
 circle.i: circle.cpp.i
@@ -266,7 +266,7 @@ circle.i: circle.cpp.i
 
 # target to preprocess a source file
 circle.cpp.i:
-	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/circle.cpp.i
+	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7bis9.dir/build.make source/CMakeFiles/aufgabe7bis9.dir/circle.cpp.i
 .PHONY : circle.cpp.i
 
 circle.s: circle.cpp.s
@@ -275,7 +275,7 @@ circle.s: circle.cpp.s
 
 # target to generate assembly for a file
 circle.cpp.s:
-	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/circle.cpp.s
+	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7bis9.dir/build.make source/CMakeFiles/aufgabe7bis9.dir/circle.cpp.s
 .PHONY : circle.cpp.s
 
 example.o: example.cpp.o
@@ -316,16 +316,16 @@ help:
 	@echo "... example"
 	@echo "... aufgabe2bis4"
 	@echo "... aufgabe5"
-	@echo "... aufgabe7"
+	@echo "... aufgabe7bis9"
 	@echo "... aufgabe2bis4.o"
 	@echo "... aufgabe2bis4.i"
 	@echo "... aufgabe2bis4.s"
 	@echo "... aufgabe5.o"
 	@echo "... aufgabe5.i"
 	@echo "... aufgabe5.s"
-	@echo "... aufgabe7.o"
-	@echo "... aufgabe7.i"
-	@echo "... aufgabe7.s"
+	@echo "... aufgabe7bis9.o"
+	@echo "... aufgabe7bis9.i"
+	@echo "... aufgabe7bis9.s"
 	@echo "... circle.o"
 	@echo "... circle.i"
 	@echo "... circle.s"
