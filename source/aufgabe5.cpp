@@ -23,10 +23,7 @@ TEST_CASE("filter alle vielfache von drei", "[erase]")
 		x = counter;
 		++counter;
 	}
-
-	//remove_if packt entfern-sachen an den anfang,
-	//gibt pointer auf element dahinter zurück ?????????????7
-	//löschen von dem element bis ende ?????????
+	
 	v.erase(std::remove_if(v.begin(), v.end(),
 		aint_multiple_of_3), v.end());
 

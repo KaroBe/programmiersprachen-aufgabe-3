@@ -60,6 +60,7 @@ int main ()
 	std::cout << "\nAnzahl unterschiedliche Zahlen: "
 		<< zahlen.size() <<"\n";
 
+	// VORSICHT UNNOETIG INEFFIZIENT //
 	std::cout << "Nicht enthaltene Zahlen: \n";
 	for (int i = 0; i<=100; ++i)
 	{

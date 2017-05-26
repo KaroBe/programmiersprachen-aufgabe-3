@@ -7,12 +7,12 @@ bool is_even (int n)
 }
 
 template <typename Container, typename T>
-Container filter (Container const& c,
-	T praed)
+Container filter (Container const& c, T praed)
 {
 	Container c2 (c.size());
 	std::copy_if (c.begin(), c.end(), c2.begin(),
 		praed);
+	return c2;
 }
 
 TEST_CASE("alleven_test_der_template_funktion", "[template_funktion]")

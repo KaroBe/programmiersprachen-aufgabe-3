@@ -16,7 +16,7 @@ int main()
 	{
 		// wird dem Element v im Vector v0 eine zufällige Zahl
 		//zugewiesen
-		v = std::rand();
+		v = std::rand(); // v ist int
 	}
 
 	/*

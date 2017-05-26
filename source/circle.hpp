@@ -18,7 +18,6 @@ public:
 	bool operator > (Circle const& c) const;
 	bool operator <= (Circle const& c) const;
 
-
 private:
 	float radius_;
 };

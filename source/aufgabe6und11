@@ -1,10 +1,15 @@
 3.6
 
+sequentielle Container: Elemente fester Reihenfolge, mit index iterierbar, sequentielle Suche in Container
+
+assoziative Container: Element mit Schlüssel - Wert Paar, sortiert anhand von Schlüssel, Ansprechen eines Elements anhand des Schlüssels
+
 Speichern der Punkte eines Polygons
-	vector/tuple ?
+	vector mit tupeln des Typs: tuple<flaot,float,float>
 
 Zuordnen von Farbnamen und entsprechenden RGB-Werten
-	Map die als Key einen Farbnamen und als Value einen Container mit den RGB Werten nimmt, z.B. <tuple>
+	Map die als Key einen Farbnamen und als Value einen Container mit den RGB Werten nimmt,
+	z.B. map<ColorName,float> colors
 
 FIFO Warteschlange von Druckaufträgen
 	list/forward_list
@@ -69,5 +74,6 @@ Element acces by..
 operator [key]			Value
 at Key 					Value
 find					Iterator to element
+	-> If the map object is const-qualified, function returns const_iterator
 
-If the map object is const-qualified, function returns const_iterator
+mit exmatrikulation ( matrikelnummer [ " Fred Fuchs " ]); wird, wenn Fred noch nicht in der Map steht, rein geschrieben, mit value 0
